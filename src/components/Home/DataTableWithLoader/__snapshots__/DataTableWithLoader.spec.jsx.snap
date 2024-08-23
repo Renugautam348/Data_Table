@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTableWithLoader renders correctly 1`] = `
+<div>
+  <TableTitle
+    onShowDeleteDialog={[Function]}
+    selection={Object {}}
+  />
+  <DataTable
+    onTableRowSelection={[Function]}
+    selection={Object {}}
+    users={Array []}
+  />
+  <FloatingActionButton
+    disabled={false}
+    mini={false}
+    onClick={[Function]}
+    secondary={false}
+    style={
+      Object {
+        "bottom": 20,
+        "position": "fixed",
+        "right": 20,
+      }
+    }
+    zDepth={2}
+  >
+    <ContentAdd />
+  </FloatingActionButton>
+  <UserDialog
+    adding={false}
+    mutate={[Function]}
+    onCancel={[Function]}
+  />
+  <DeleteDialog
+    deleting={false}
+    deletingProgress={false}
+    mutate={[Function]}
+    onCancel={[Function]}
+    selected={Array []}
+  />
+</div>
+`;
+
+exports[`DataTableWithLoader renders correctly 2`] = `<Progress />`;
+
+exports[`DataTableWithLoader renders correctly 3`] = `
+<div>
+  <TableTitle
+    onShowDeleteDialog={[Function]}
+    selection={Object {}}
+  />
+  <DataTable
+    onTableRowSelection={[Function]}
+    selection={Object {}}
+    users={
+      Array [
+        Object {
+          "age": 32,
+          "firstName": "Lebron",
+          "id": "1234abcd",
+          "lastName": "James",
+        },
+        Object {
+          "age": 29,
+          "firstName": "Steph",
+          "id": "2345bcde",
+          "lastName": "Curry",
+        },
+      ]
+    }
+  />
+  <FloatingActionButton
+    disabled={false}
+    mini={false}
+    onClick={[Function]}
+    secondary={false}
+    style={
+      Object {
+        "bottom": 20,
+        "position": "fixed",
+        "right": 20,
+      }
+    }
+    zDepth={2}
+  >
+    <ContentAdd />
+  </FloatingActionButton>
+  <UserDialog
+    adding={false}
+    mutate={[Function]}
+    onCancel={[Function]}
+  />
+  <DeleteDialog
+    deleting={false}
+    deletingProgress={false}
+    mutate={[Function]}
+    onCancel={[Function]}
+    selected={Array []}
+  />
+</div>
+`;
